@@ -1,11 +1,8 @@
 /*
- * @Author: your name
+ * @Author: LionelLc
  * @Date: 2020-05-29 11:43:41
- * @LastEditTime: 2020-05-29 19:06:13
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /react-calendar2/rollup.config.js
- */
+ * @LastEditors: LionelLc
+ */ 
 
 import babel from 'rollup-plugin-babel';
 import json from '@rollup/plugin-json';

@@ -1,6 +1,6 @@
 {
   "name": "react-clock-calendar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "calendar by react",
   "umd": "dist/umd/index.umd.min.js",
   "main": "dist/main/index.main.min.js",
@@ -42,5 +42,9 @@
     "react": "^16.13.1",
     "dayjs": "^1.8.28",
     "react-dom": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lionel178/react-clock-calendar"
   }
 }

@@ -1,24 +1,23 @@
 <!--
- * @Author: your name
+ * @Author: LionelLc
  * @Date: 2020-05-29 18:50:56
- * @LastEditTime: 2020-06-01 11:05:33
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /react-calendar2/README.md
--->
+ * @LastEditors: LionelLc
+--> 
 
 # react-clock-calendar
 
 百日打卡日历组件
 
-![demo](https://user-gold-cdn.xitu.io/2020/6/1/1726dd4435daaa59?w=1640&h=1626&f=png&s=495325)
+<div align="center">
+  <img width="436" heigth="398" src="https://user-gold-cdn.xitu.io/2020/6/1/1726ddd9ff93d65c?w=1640&h=1626&f=png&s=116892">
+</div>
 
 ## how to use
 
 ```jsx
 import React from 'react';
 import Calendar from 'react-clock-calendar';
-import 'react-clock-calendar/dist/main/index.min.css'
+import 'react-clock-calendar/dist/main/index.min.css';
 
 const App = () => {
   const CalendarProps = {
@@ -82,4 +81,4 @@ export default App;
 
 ## 介绍
 
-rem布局
+rem 布局
