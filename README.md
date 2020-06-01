@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-29 18:50:56
- * @LastEditTime: 2020-05-29 19:05:06
+ * @LastEditTime: 2020-06-01 11:05:33
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /react-calendar2/README.md
@@ -11,11 +11,14 @@
 
 百日打卡日历组件
 
+![demo](https://user-gold-cdn.xitu.io/2020/6/1/1726dd4435daaa59?w=1640&h=1626&f=png&s=495325)
+
 ## how to use
 
 ```jsx
 import React from 'react';
 import Calendar from 'react-clock-calendar';
+import 'react-clock-calendar/dist/main/index.min.css'
 
 const App = () => {
   const CalendarProps = {
@@ -47,12 +50,12 @@ const App = () => {
       '2020-05-20': 2,
     },
     prevImg: {
-      active: 'https://ccms-up-img.gymbo-online.com/up/img/sWrxeEgqdfdW6A3wEgKOi.png',
-      unActive: 'https://ccms-up-img.gymbo-online.com/up/img/_KyyEoTQP27vll7rYnZPT.png',
+      active: 'https://user-gold-cdn.xitu.io/2020/6/1/1726dd5044b5b708?w=72&h=72&f=png&s=1556',
+      unActive: 'https://user-gold-cdn.xitu.io/2020/6/1/1726dd580a69917a?w=72&h=72&f=png&s=1452',
     },
     nextImg: {
-      active: 'https://ccms-up-img.gymbo-online.com/up/img/FCiRi2049wYwkJEdv8l2g.png',
-      unActive: 'https://ccms-up-img.gymbo-online.com/up/img/eUjnQeoBQ1RAb_9JVJxu5.png',
+      active: 'https://user-gold-cdn.xitu.io/2020/6/1/1726dd5d09e9b149?w=72&h=72&f=png&s=1572',
+      unActive: 'https://user-gold-cdn.xitu.io/2020/6/1/1726dd6312f7941e?w=72&h=72&f=png&s=1433',
     },
     handleCurrentDay: () => {},
   };
@@ -77,6 +80,6 @@ export default App;
 | initData         | 初始化日期数据 | 必填 | 无     |
 | handleCurrentDay | 点击回调       | 必填 | 无     |
 
-## 展示
+## 介绍
 
-![demo](https://cdn.nlark.com/yuque/0/2020/png/236488/1590750286976-46cf8a4a-1d48-4617-a74b-874b458ea99c.png)
+rem布局

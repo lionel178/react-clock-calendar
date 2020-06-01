@@ -1,7 +1,7 @@
 {
   "name": "react-clock-calendar",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.3",
+  "description": "calendar by react",
   "umd": "dist/umd/index.umd.min.js",
   "main": "dist/main/index.main.min.js",
   "module": "dist/module/index.es.min.js",
@@ -10,7 +10,11 @@
     "build": "rollup -c",
     "prebuild": "rimraf dist"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "calendar",
+    "rem"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
