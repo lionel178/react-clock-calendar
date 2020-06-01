@@ -1,0 +1,158 @@
+.clockInCalendar {
+  width: 100%;
+  min-height: 10px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  .calendarHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .titleCon {
+      .mainTitle {
+        font-family: 'PingFangSC-Semibold';
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0;
+        color: #333;
+      }
+      .subTitle {
+        margin-top: 5px;
+        font-family: 'PingFangSC-Regular';
+        font-size: 12px;
+        line-height: 13px;
+        letter-spacing: 0.5px;
+        color: rgb(153, 153, 153);
+      }
+    }
+    .operatorCon {
+      .operatorImg {
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+      }
+      .operatorImg:first-child {
+        margin-right: 30px;
+      }
+    }
+  }
+  .calendarBodyHeader {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'PingFangSC-Regular';
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0;
+    color: rgb(153, 153, 153);
+    .calendarBodyHeaderItem {
+      text-align: center;
+      width: 49px;
+    }
+  }
+  .calendarBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'PingFangSC-Medium';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0;
+    color: #333;
+    .calendarBodyItemCon {
+      width: 49px;
+      height: 35px;
+      text-align: center;
+      line-height: 36px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      &.active {
+        position: relative;
+      }
+      &.active::before {
+        left: 6;
+        content: '';
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        position: absolute;
+        border: 2px solid rgb(255, 135, 0);
+      }
+      .outDuration {
+        color: rgb(184, 184, 184);
+      }
+    }
+    .calendarBodyItem {
+      line-height: 35px;
+      height: 35px;
+      width: 100%;
+      &.android {
+        line-height: 40px;
+      }
+    }
+    .signFirstDay {
+      box-sizing: border-box;
+      border-top-left-radius: 17.5px;
+      border-bottom-left-radius: 17.5px;
+      background-image: linear-gradient(#fce98d, #fcf4d0);
+      width: 42px;
+      margin-left: 7px;
+      .trueStr {
+        margin-left: -7px;
+      }
+    }
+    .signEndDay {
+      border-top-right-radius: 17.5px;
+      border-bottom-right-radius: 17.5px;
+      background-image: linear-gradient(#fce98d, #fcf4d0);
+      width: 42px;
+      margin-right: 7px;
+      .trueStr {
+        margin-left: 7px;
+      }
+    }
+    .signNormalDay {
+      background-image: linear-gradient(#fce98d, #fcf4d0);
+    }
+    .signSingleDay {
+      border-radius: 100%;
+      background: linear-gradient(#fce98d, #fcf4d0);
+      margin: 0 7px;
+      width: 35px;
+    }
+    .unSignFirstDay {
+      border-top-left-radius: 17.5px;
+      border-bottom-left-radius: 17.5px;
+      background: rgba(0, 0, 0, 0.05);
+      width: 42px;
+      margin-left: 7px;
+      .trueStr {
+        margin-left: -7px;
+      }
+    }
+    .unSignEndDay {
+      border-top-right-radius: 17.5px;
+      border-bottom-right-radius: 17.5px;
+      background: rgba(0, 0, 0, 0.05);
+      width: 42px;
+      margin-right: 7px;
+      .trueStr {
+        margin-left: 7px;
+      }
+    }
+    .unSignNormalDay {
+      background: rgba(0, 0, 0, 0.05);
+    }
+    .unSignSingleDay {
+      border-radius: 17.5px;
+      margin: 0 7px;
+      width: 35px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+  }
+}
